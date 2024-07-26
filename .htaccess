@@ -1,0 +1,20 @@
+# Ativa o mecanismo de reescrita
+RewriteEngine On
+
+# Define a base para reescritas como a pasta atual
+RewriteBase /
+
+# Permite a execução de arquivos PHP
+<FilesMatch "\.php$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+
+# Redireciona todas as requisições para o index.php, se não forem para um arquivo ou diretório existente
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]
+
+# Configurações adicionais, se necessárias
+# Exemplo: permite o acesso a arquivos estáticos (css, js, imagens)
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^(.*)$ $1 [L]
