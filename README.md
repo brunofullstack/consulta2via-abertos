@@ -55,5 +55,3 @@ Se desejar contribuir, por favor, faça um fork do repositório e crie uma pull 
 Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ---
-
-Sinta-se à vontade para ajustar as seções conforme necessário e adicionar mais detalhes específicos do projeto.
