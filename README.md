@@ -50,8 +50,4 @@ A aplicação utiliza as APIs da Ksys Sistemas de Gestão:
 
 Se desejar contribuir, por favor, faça um fork do repositório e crie uma pull request. Para grandes mudanças, abra uma issue primeiro para discutir o que você gostaria de mudar.
 
-## Licença
-
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
 ---
